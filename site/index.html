@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutoRent Premium | Locadora de Veículos em Porto Alegre</title>
+  <meta name="description" content="Aluguel de carros em Porto Alegre. Frota premium, km livre, entrega no aeroporto e reserva rápida via WhatsApp. Econômico, SUV, executivo e van.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a href="#contato" class="skip-link">Ir para reserva</a>
+
+  <a href="#contato" class="whatsapp-float" aria-label="Reservar veículo no WhatsApp" id="whatsapp-float">
+    <i class="fab fa-whatsapp" aria-hidden="true"></i>
+    <span class="whatsapp-float__ring" aria-hidden="true"></span>
+  </a>
+
+  <header class="header" id="header">
+    <div class="container">
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="#home" class="logo">
+          <i class="fas fa-car-side" aria-hidden="true"></i>
+          <span>AutoRent <strong>Premium</strong></span>
+        </a>
+        <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-menu" id="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#categorias" class="nav-link">Categorias</a></li>
+          <li><a href="#frota" class="nav-link">Frota</a></li>
+          <li><a href="#planos" class="nav-link">Planos</a></li>
+          <li><a href="#galeria" class="nav-link">Galeria</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+          <li><a href="#contato" class="btn btn-primary nav-cta">Reservar</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero__bg">
+        <div class="hero__overlay"></div>
+        <div class="hero__particles" id="particles" aria-hidden="true"></div>
+      </div>
+      <div class="container">
+        <div class="hero__grid">
+          <div class="hero__content">
+            <span class="hero-badge" data-aos="fade-down">
+              <i class="fas fa-road" aria-hidden="true"></i>
+              Locadora premium em Porto Alegre
+            </span>
+            <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">
+              Alugue o carro ideal <span class="highlight">em minutos</span>
+            </h1>
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+              Frota revisada, seguro incluso e km livre. Retire na loja, no aeroporto ou receba em casa — reserva 100% pelo WhatsApp, sem burocracia.
+            </p>
+            <div class="hero-cta" data-aos="fade-up" data-aos-delay="300">
+              <a href="#contato" class="btn btn-primary btn-lg">
+                <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                Reservar Agora
+              </a>
+              <a href="#frota" class="btn btn-outline btn-lg">Ver Frota</a>
+            </div>
+            <div class="hero-stats" data-aos="fade-up" data-aos-delay="400">
+              <div class="stat">
+                <span class="stat-number" data-count="120">0</span><span class="stat-suffix">+</span>
+                <span class="stat-label">Veículos na frota</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number" data-count="8500">0</span><span class="stat-suffix">+</span>
+                <span class="stat-label">Clientes atendidos</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number" data-count="12">0</span><span class="stat-suffix"> anos</span>
+                <span class="stat-label">De experiência</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero__image" data-aos="fade-left" data-aos-delay="500">
+            <div class="hero__image-frame">
+              <img
+                src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=900&auto=format&fit=crop"
+                alt="Carro esportivo premium disponível para locação na AutoRent Premium"
+                loading="eager"
+                width="900"
+                height="600"
+              >
+              <div class="hero__float-card" data-aos="zoom-in" data-aos-delay="800">
+                <i class="fas fa-shield-alt" aria-hidden="true"></i>
+                <div>
+                  <strong>Seguro incluso</strong>
+                  <span>Proteção total na locação</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section categorias" id="categorias">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">Categorias</span>
+          <h2 class="section-title">Encontre o veículo perfeito</h2>
+          <p class="section-desc">Do econômico ao executivo — opções para viagem, trabalho ou lazer.</p>
+        </div>
+        <div class="categorias-grid">
+          <article class="categoria-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="categoria-card__icon"><i class="fas fa-gas-pump" aria-hidden="true"></i></div>
+            <h3>Econômico</h3>
+            <p>Ideal para cidade e economia de combustível.</p>
+            <span class="categoria-card__price">A partir de <strong>R$ 89</strong>/dia</span>
+            <a href="#contato" class="btn btn-outline btn-sm btn-reservar" data-categoria="Econômico">Reservar</a>
+          </article>
+          <article class="categoria-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="categoria-card__icon"><i class="fas fa-mountain" aria-hidden="true"></i></div>
+            <h3>SUV</h3>
+            <p>Conforto e espaço para família e estrada.</p>
+            <span class="categoria-card__price">A partir de <strong>R$ 189</strong>/dia</span>
+            <a href="#contato" class="btn btn-outline btn-sm btn-reservar" data-categoria="SUV">Reservar</a>
+          </article>
+          <article class="categoria-card categoria-card--featured" data-aos="fade-up" data-aos-delay="300">
+            <span class="categoria-card__badge">Mais pedido</span>
+            <div class="categoria-card__icon"><i class="fas fa-gem" aria-hidden="true"></i></div>
+            <h3>Executivo</h3>
+            <p>Sedans premium para viagens de negócios.</p>
+            <span class="categoria-card__price">A partir de <strong>R$ 249</strong>/dia</span>
+            <a href="#contato" class="btn btn-primary btn-sm btn-reservar" data-categoria="Executivo">Reservar</a>
+          </article>
+          <article class="categoria-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="categoria-card__icon"><i class="fas fa-shuttle-van" aria-hidden="true"></i></div>
+            <h3>Van / Utilitário</h3>
+            <p>Grupos, mudanças leves e transporte corporativo.</p>
+            <span class="categoria-card__price">A partir de <strong>R$ 299</strong>/dia</span>
+            <a href="#contato" class="btn btn-outline btn-sm btn-reservar" data-categoria="Van">Reservar</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt como-funciona" id="como-funciona">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">Como funciona</span>
+          <h2 class="section-title">3 passos para pegar a estrada</h2>
+        </div>
+        <div class="steps-grid">
+          <div class="step-card" data-aos="fade-up" data-aos-delay="100">
+            <span class="step-number">01</span>
+            <i class="fas fa-search" aria-hidden="true"></i>
+            <h3>Escolha o veículo</h3>
+            <p>Navegue pela frota e selecione categoria ou modelo ideal para sua viagem.</p>
+          </div>
+          <div class="step-card" data-aos="fade-up" data-aos-delay="200">
+            <span class="step-number">02</span>
+            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+            <h3>Reserve pelo WhatsApp</h3>
+            <p>Preencha o formulário com datas e local de retirada — confirmamos em minutos.</p>
+          </div>
+          <div class="step-card" data-aos="fade-up" data-aos-delay="300">
+            <span class="step-number">03</span>
+            <i class="fas fa-key" aria-hidden="true"></i>
+            <h3>Retire com rapidez</h3>
+            <p>Apresente CNH e cartão — assine o contrato digital e saia dirigindo.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section frota" id="frota">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">Frota em destaque</span>
+          <h2 class="section-title">Veículos prontos para você</h2>
+          <p class="section-desc">Todos revisados, higienizados e com seguro incluso.</p>
+        </div>
+        <div class="frota-grid">
+          <article class="veiculo-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="veiculo-card__img">
+              <img src="https://images.unsplash.com/photo-1623869675781-50aa6866081b?q=80&w=600&auto=format&fit=crop" alt="Volkswagen Polo prata disponível para locação" loading="lazy" width="600" height="400">
+              <span class="veiculo-card__tag">Econômico</span>
+            </div>
+            <div class="veiculo-card__body">
+              <h3>VW Polo 1.0</h3>
+              <ul class="veiculo-specs">
+                <li><i class="fas fa-cog" aria-hidden="true"></i> Manual</li>
+                <li><i class="fas fa-snowflake" aria-hidden="true"></i> Ar-cond.</li>
+                <li><i class="fas fa-suitcase" aria-hidden="true"></i> 2 malas</li>
+              </ul>
+              <div class="veiculo-card__footer">
+                <span class="veiculo-price">R$ 89<small>/dia</small></span>
+                <a href="#contato" class="btn btn-primary btn-sm btn-reservar" data-categoria="Econômico" data-veiculo="VW Polo 1.0">Reservar</a>
+              </div>
+            </div>
+          </article>
+          <article class="veiculo-card" data-aos="fade-up" data-aos-delay="150">
+            <div class="veiculo-card__img">
+              <img src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?q=80&w=600&auto=format&fit=crop" alt="Hyundai HB20 branco disponível para locação" loading="lazy" width="600" height="400">
+              <span class="veiculo-card__tag">Econômico</span>
+            </div>
+            <div class="veiculo-card__body">
+              <h3>Hyundai HB20</h3>
+              <ul class="veiculo-specs">
+                <li><i class="fas fa-cog" aria-hidden="true"></i> Automático</li>
+                <li><i class="fas fa-snowflake" aria-hidden="true"></i> Ar-cond.</li>
+                <li><i class="fas fa-suitcase" aria-hidden="true"></i> 2 malas</li>
+              </ul>
+              <div class="veiculo-card__footer">
+                <span class="veiculo-price">R$ 99<small>/dia</small></span>
+                <a href="#contato" class="btn btn-primary btn-sm btn-reservar" data-categoria="Econômico" data-veiculo="Hyundai HB20">Reservar</a>
+              </div>
+            </div>
+          </article>
+          <article class="veiculo-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="veiculo-card__img">
+              <img src="https://images.unsplash.com/photo-1519641471654-76ce0107aecb?q=80&w=600&auto=format&fit=crop" alt="Jeep Compass SUV prata para locação" loading="lazy" width="600" height="400">
+              <span class="veiculo-card__tag">SUV</span>
+            </div>
+            <div class="veiculo-card__body">
+              <h3>Jeep Compass</h3>
+              <ul class="veiculo-specs">
+                <li><i class="fas fa-cog" aria-hidden="true"></i> Automático</li>
+                <li><i class="fas fa-snowflake" aria-hidden="true"></i> Ar-cond.</li>
+                <li><i class="fas fa-suitcase" aria-hidden="true"></i> 4 malas</li>
+              </ul>
+              <div class="veiculo-card__footer">
+                <span class="veiculo-price">R$ 189<small>/dia</small></span>
+                <a href="#contato" class="btn btn-primary btn-sm btn-reservar" data-categoria="SUV" data-veiculo="Jeep Compass">Reservar</a>
+              </div>
+            </div>
+          </article>
+          <article class="veiculo-card" data-aos="fade-up" data-aos-delay="250">
+            <div class="veiculo-card__img">
+              <img src="https://images.unsplash.com/photo-1609521263047-f8f205293f24?q=80&w=600&auto=format&fit=crop" alt="Toyota Corolla Cross SUV para locação" loading="lazy" width="600" height="400">
+              <span class="veiculo-card__tag">SUV</span>
+            </div>
+            <div class="veiculo-card__body">
+              <h3>Toyota Corolla Cross</h3>
+              <ul class="veiculo-specs">
+                <li><i class="fas fa-cog" aria-hidden="true"></i> Automático</li>
+                <li><i class="fas fa-snowflake" aria-hidden="true"></i> Ar-cond.</li>
+                <li><i class="fas fa-suitcase" aria-hidden="true"></i> 4 malas</li>
+              </ul>
+              <div class="veiculo-card__footer">
+                <span class="veiculo-price">R$ 199<small>/dia</small></span>
+                <a href="#contato" class="btn btn-primary btn-sm btn-reservar" data-categoria="SUV" data-veiculo="Toyota Corolla Cross">Reservar</a>
+              </div>
+            </div>
+          </article>
+          <article class="veiculo-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="veiculo-card__img">
+              <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?q=80&w=600&auto=format&fit=crop" alt="BMW Série 3 sedã executivo para locação" loading="lazy" width="600" height="400">
+              <span class="veiculo-card__tag">Executivo</span>
+            </div>
+            <div class="veiculo-card__body">
+              <h3>BMW Série 3</h3>
+              <ul class="veiculo-specs">
+                <li><i class="fas fa-cog" aria-hidden="true"></i> Automático</li>
+                <li><i class="fas fa-snowflake" aria-hidden="true"></i> Ar-cond.</li>
+                <li><i class="fas fa-suitcase" aria-hidden="true"></i> 3 malas</li>
+              </ul>
+              <div class="veiculo-card__footer">
+                <span class="veiculo-price">R$ 249<small>/dia</small></span>
+                <a href="#contato" class="btn btn-primary btn-sm btn-reservar" data-categoria="Executivo" data-veiculo="BMW Série 3">Reservar</a>
+              </div>
+            </div>
+          </article>
+          <article class="veiculo-card" data-aos="fade-up" data-aos-delay="350">
+            <div class="veiculo-card__img">
+              <img src="https://images.unsplash.com/photo-1527786356703-4b100914fb55?q=80&w=600&auto=format&fit=crop" alt="Mercedes-Benz Classe C executivo para locação" loading="lazy" width="600" height="400">
+              <span class="veiculo-card__tag">Executivo</span>
+            </div>
+            <div class="veiculo-card__body">
+              <h3>Mercedes Classe C</h3>
+              <ul class="veiculo-specs">
+                <li><i class="fas fa-cog" aria-hidden="true"></i> Automático</li>
+                <li><i class="fas fa-snowflake" aria-hidden="true"></i> Ar-cond.</li>
+                <li><i class="fas fa-suitcase" aria-hidden="true"></i> 3 malas</li>
+              </ul>
+              <div class="veiculo-card__footer">
+                <span class="veiculo-price">R$ 279<small>/dia</small></span>
+                <a href="#contato" class="btn btn-primary btn-sm btn-reservar" data-categoria="Executivo" data-veiculo="Mercedes Classe C">Reservar</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt diferenciais" id="diferenciais">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">Diferenciais</span>
+          <h2 class="section-title">Por que escolher a AutoRent?</h2>
+        </div>
+        <div class="diferenciais-grid">
+          <div class="diferencial-item" data-aos="fade-up" data-aos-delay="100">
+            <i class="fas fa-shield-alt" aria-hidden="true"></i>
+            <h3>Seguro incluso</h3>
+            <p>Cobertura completa contra colisão, roubo e terceiros em todas as locações.</p>
+          </div>
+          <div class="diferencial-item" data-aos="fade-up" data-aos-delay="150">
+            <i class="fas fa-road" aria-hidden="true"></i>
+            <h3>Km livre</h3>
+            <p>Diárias com quilometragem livre — viaje sem se preocupar com limites.</p>
+          </div>
+          <div class="diferencial-item" data-aos="fade-up" data-aos-delay="200">
+            <i class="fas fa-plane-arrival" aria-hidden="true"></i>
+            <h3>Entrega no aeroporto</h3>
+            <p>Retire ou devolva no Aeroporto Salgado Filho com agendamento prévio.</p>
+          </div>
+          <div class="diferencial-item" data-aos="fade-up" data-aos-delay="250">
+            <i class="fas fa-tools" aria-hidden="true"></i>
+            <h3>Frota revisada</h3>
+            <p>Manutenção preventiva rigorosa e higienização completa a cada locação.</p>
+          </div>
+          <div class="diferencial-item" data-aos="fade-up" data-aos-delay="300">
+            <i class="fas fa-bolt" aria-hidden="true"></i>
+            <h3>Sem burocracia</h3>
+            <p>Reserva pelo WhatsApp, contrato digital e retirada expressa em 15 minutos.</p>
+          </div>
+          <div class="diferencial-item" data-aos="fade-up" data-aos-delay="350">
+            <i class="fas fa-headset" aria-hidden="true"></i>
+            <h3>Suporte 24h</h3>
+            <p>Assistência na estrada e atendimento humanizado a qualquer hora.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section planos" id="planos">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">Planos e tarifas</span>
+          <h2 class="section-title">Escolha o plano ideal</h2>
+        </div>
+        <div class="planos-grid">
+          <article class="plano-card" data-aos="fade-up" data-aos-delay="100">
+            <h3>Diária</h3>
+            <p class="plano-card__desc">Flexibilidade total para viagens curtas.</p>
+            <div class="plano-card__price">A partir de <strong>R$ 89</strong><span>/dia</span></div>
+            <ul>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Km livre</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Seguro incluso</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> 1 condutor adicional grátis</li>
+            </ul>
+            <a href="#contato" class="btn btn-outline btn-block">Reservar diária</a>
+          </article>
+          <article class="plano-card plano-card--featured" data-aos="fade-up" data-aos-delay="200">
+            <span class="plano-card__badge">Mais popular</span>
+            <h3>Semanal</h3>
+            <p class="plano-card__desc">Economia de até 20% para viagens de 7 dias.</p>
+            <div class="plano-card__price">A partir de <strong>R$ 499</strong><span>/semana</span></div>
+            <ul>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Km livre</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Seguro incluso</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Entrega gratuita na loja</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Upgrade de categoria*</li>
+            </ul>
+            <a href="#contato" class="btn btn-primary btn-block">Reservar semanal</a>
+          </article>
+          <article class="plano-card" data-aos="fade-up" data-aos-delay="300">
+            <h3>Mensal</h3>
+            <p class="plano-card__desc">Ideal para empresas e uso prolongado.</p>
+            <div class="plano-card__price">A partir de <strong>R$ 1.690</strong><span>/mês</span></div>
+            <ul>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Km livre</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Seguro incluso</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Manutenção inclusa</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Frota corporativa</li>
+            </ul>
+            <a href="#contato" class="btn btn-outline btn-block">Solicitar proposta</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt galeria" id="galeria">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">Galeria</span>
+          <h2 class="section-title">Experiência AutoRent</h2>
+        </div>
+        <div class="galeria-grid">
+          <figure class="galeria-item galeria-item--wide" data-aos="zoom-in" data-aos-delay="100">
+            <img src="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=800&auto=format&fit=crop" alt="Interior de carro premium com painel moderno" loading="lazy" width="800" height="500">
+          </figure>
+          <figure class="galeria-item" data-aos="zoom-in" data-aos-delay="150">
+            <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=600&auto=format&fit=crop" alt="Estrada aberta para viagem de carro alugado" loading="lazy" width="600" height="400">
+          </figure>
+          <figure class="galeria-item" data-aos="zoom-in" data-aos-delay="200">
+            <img src="https://images.unsplash.com/photo-1503376780353-7ebb459f1a66?q=80&w=600&auto=format&fit=crop" alt="Entrega de chaves do veículo alugado" loading="lazy" width="600" height="400">
+          </figure>
+          <figure class="galeria-item" data-aos="zoom-in" data-aos-delay="250">
+            <img src="https://images.unsplash.com/photo-1544627661-be03dd7692a4?q=80&w=600&auto=format&fit=crop" alt="Família em viagem com SUV alugado" loading="lazy" width="600" height="400">
+          </figure>
+          <figure class="galeria-item" data-aos="zoom-in" data-aos-delay="300">
+            <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?q=80&w=600&auto=format&fit=crop" alt="Frota de veículos estacionados na locadora" loading="lazy" width="600" height="400">
+          </figure>
+          <figure class="galeria-item galeria-item--wide" data-aos="zoom-in" data-aos-delay="350">
+            <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=800&auto=format&fit=crop" alt="Retirada de veículo no aeroporto Salgado Filho" loading="lazy" width="800" height="500">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section depoimentos" id="depoimentos">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">Depoimentos</span>
+          <h2 class="section-title">O que nossos clientes dizem</h2>
+        </div>
+        <div class="depoimentos-grid">
+          <blockquote class="depoimento-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="depoimento-stars" aria-label="5 estrelas">
+              <i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i>
+            </div>
+            <p>"Reservei pelo WhatsApp à noite e no dia seguinte já estava com o Compass. Processo rápido e carro impecável!"</p>
+            <footer><strong>Mariana Costa</strong> — Viagem em família</footer>
+          </blockquote>
+          <blockquote class="depoimento-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="depoimento-stars" aria-label="5 estrelas">
+              <i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i>
+            </div>
+            <p>"Uso mensal para trabalho. Frota sempre revisada, suporte excelente e preço justo. Recomendo para empresas."</p>
+            <footer><strong>Ricardo Almeida</strong> — Cliente corporativo</footer>
+          </blockquote>
+          <blockquote class="depoimento-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="depoimento-stars" aria-label="5 estrelas">
+              <i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i>
+            </div>
+            <p>"Retirei no aeroporto sem fila. BMW impecável para reunião em SP. Atendimento nota 10 do início ao fim."</p>
+            <footer><strong>Paulo Henrique</strong> — Executivo</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-banner" data-aos="fade-up">
+      <div class="container">
+        <div class="cta-banner__inner">
+          <h2>Pronto para pegar a estrada?</h2>
+          <p>Reserve agora e garanta o veículo ideal para sua próxima viagem.</p>
+          <a href="#contato" class="btn btn-primary btn-lg">
+            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+            Fazer Reserva
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt faq" id="faq">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">FAQ</span>
+          <h2 class="section-title">Perguntas frequentes</h2>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-1">
+              Quais documentos preciso para alugar?
+              <i class="fas fa-chevron-down" aria-hidden="true"></i>
+            </button>
+            <div class="faq-answer" id="faq-1" hidden>
+              <p>CNH válida (categoria B ou superior), cartão de crédito em nome do condutor, RG ou passaporte e comprovante de residência. Idade mínima: 21 anos (25 para categoria executiva).</p>
+            </div>
+          </div>
+          <div class="faq-item" data-aos="fade-up" data-aos-delay="150">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-2">
+              É necessário caução?
+              <i class="fas fa-chevron-down" aria-hidden="true"></i>
+            </button>
+            <div class="faq-answer" id="faq-2" hidden>
+              <p>Sim, bloqueamos um valor no cartão de crédito como caução (pré-autorização). O valor varia conforme a categoria e é estornado após a devolução do veículo, se não houver pendências.</p>
+            </div>
+          </div>
+          <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-3">
+              Posso cancelar a reserva?
+              <i class="fas fa-chevron-down" aria-hidden="true"></i>
+            </button>
+            <div class="faq-answer" id="faq-3" hidden>
+              <p>Cancelamento gratuito até 24 horas antes da retirada. Após esse prazo, pode haver taxa equivalente a 1 diária. Entre em contato pelo WhatsApp para alterações.</p>
+            </div>
+          </div>
+          <div class="faq-item" data-aos="fade-up" data-aos-delay="250">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-4">
+              Onde posso retirar e devolver o veículo?
+              <i class="fas fa-chevron-down" aria-hidden="true"></i>
+            </button>
+            <div class="faq-answer" id="faq-4" hidden>
+              <p>Na nossa loja em Porto Alegre, no Aeroporto Salgado Filho (com agendamento) ou com entrega no seu endereço dentro da região metropolitana (taxa adicional).</p>
+            </div>
+          </div>
+          <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-5">
+              O seguro está incluso?
+              <i class="fas fa-chevron-down" aria-hidden="true"></i>
+            </button>
+            <div class="faq-answer" id="faq-5" hidden>
+              <p>Sim! Todas as locações incluem seguro contra colisão, roubo e danos a terceiros. Opcionais de redução de franquia disponíveis no momento da retirada.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contato" id="contato">
+      <div class="container">
+        <div class="contato-grid">
+          <div class="contato-info" data-aos="fade-right">
+            <span class="section-tag">Reserva</span>
+            <h2 class="section-title">Agende sua locação</h2>
+            <p>Preencha o formulário e envie pelo WhatsApp. Confirmamos disponibilidade em minutos.</p>
+            <ul class="contato-list">
+              <li>
+                <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                <div>
+                  <strong>Endereço</strong>
+                  <p>Av. Assis Brasil, 2847 — Porto Alegre/RS</p>
+                </div>
+              </li>
+              <li>
+                <i class="fas fa-clock" aria-hidden="true"></i>
+                <div>
+                  <strong>Horário</strong>
+                  <p>Seg–Sex 7h–20h · Sáb 8h–18h · Dom 9h–14h</p>
+                </div>
+              </li>
+              <li>
+                <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                <div>
+                  <strong>WhatsApp</strong>
+                  <p>(51) 99887-6655</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="contact-form-wrap" data-aos="fade-left">
+            <form id="whatsapp-form" novalidate>
+              <div class="form-group">
+                <label for="nome">Nome completo *</label>
+                <input type="text" id="nome" name="nome" required autocomplete="name">
+              </div>
+              <div class="form-group">
+                <label for="telefone">Telefone/WhatsApp *</label>
+                <input type="tel" id="telefone" name="telefone" required autocomplete="tel">
+              </div>
+              <div class="form-group">
+                <label for="categoria">Categoria do veículo *</label>
+                <select id="categoria" name="categoria" required>
+                  <option value="">Selecione...</option>
+                  <option value="Econômico">Econômico</option>
+                  <option value="SUV">SUV</option>
+                  <option value="Executivo">Executivo</option>
+                  <option value="Van">Van / Utilitário</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="veiculo">Veículo específico</label>
+                <select id="veiculo" name="veiculo">
+                  <option value="">Qualquer disponível</option>
+                  <option value="VW Polo 1.0">VW Polo 1.0</option>
+                  <option value="Hyundai HB20">Hyundai HB20</option>
+                  <option value="Jeep Compass">Jeep Compass</option>
+                  <option value="Toyota Corolla Cross">Toyota Corolla Cross</option>
+                  <option value="BMW Série 3">BMW Série 3</option>
+                  <option value="Mercedes Classe C">Mercedes Classe C</option>
+                </select>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="data-retirada">Data de retirada *</label>
+                  <input type="date" id="data-retirada" name="data-retirada" required>
+                </div>
+                <div class="form-group">
+                  <label for="data-devolucao">Data de devolução *</label>
+                  <input type="date" id="data-devolucao" name="data-devolucao" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="local-retirada">Local de retirada</label>
+                  <select id="local-retirada" name="local-retirada">
+                    <option value="Loja — Av. Assis Brasil">Loja — Av. Assis Brasil</option>
+                    <option value="Aeroporto Salgado Filho">Aeroporto Salgado Filho</option>
+                    <option value="Entrega no endereço">Entrega no endereço</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="local-devolucao">Local de devolução</label>
+                  <select id="local-devolucao" name="local-devolucao">
+                    <option value="Mesmo da retirada">Mesmo da retirada</option>
+                    <option value="Loja — Av. Assis Brasil">Loja — Av. Assis Brasil</option>
+                    <option value="Aeroporto Salgado Filho">Aeroporto Salgado Filho</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="observacoes">Observações</label>
+                <textarea id="observacoes" name="observacoes" rows="3" placeholder="Condutor adicional, cadeirinha, etc."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg btn-block">
+                <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                Enviar Reserva pelo WhatsApp
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="logo">
+            <i class="fas fa-car-side" aria-hidden="true"></i>
+            <span>AutoRent <strong>Premium</strong></span>
+          </a>
+          <p>Locadora de veículos premium — confiança, agilidade e km livre desde 2013.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Links do rodapé">
+          <h3>Links</h3>
+          <ul>
+            <li><a href="#categorias">Categorias</a></li>
+            <li><a href="#frota">Frota</a></li>
+            <li><a href="#planos">Planos</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contato">Reservar</a></li>
+          </ul>
+        </nav>
+        <div class="footer-contact">
+          <h3>Contato</h3>
+          <p>Av. Assis Brasil, 2847<br>Porto Alegre/RS</p>
+          <p><a href="tel:+5551998876655">(51) 99887-6655</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 AutoRent Premium. Concept demo por <a href="https://fariasdigital.com.br/" target="_blank" rel="noopener noreferrer">Farias Digital</a>.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
